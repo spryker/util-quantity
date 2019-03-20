@@ -5,28 +5,11 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Service\UtilQuantity;
+namespace Spryker\Service\UtilQuantity\Comparator;
 
-interface UtilQuantityServiceInterface
+interface QuantityComparatorInterface
 {
     /**
-     * Specification:
-     * - rounds given quantity.
-     *
-     * @api
-     *
-     * @param float $quantity
-     *
-     * @return float
-     */
-    public function roundQuantity(float $quantity): float;
-
-    /**
-     * Specification:
-     * - compares two float quantities.
-     *
-     * @api
-     *
      * @param float $firstQuantity
      * @param float $secondQuantity
      *
